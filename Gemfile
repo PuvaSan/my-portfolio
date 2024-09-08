@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 ruby '3.1.2'
 gem 'bundler', '~> 2.2'
 gem 'middleman', '~> 4.2'
