@@ -126,7 +126,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  bundler (~> 2.2)
   middleman (~> 4.2)
   middleman-autoprefixer (~> 3.0)
   tzinfo-data
