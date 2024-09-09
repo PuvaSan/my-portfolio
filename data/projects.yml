@@ -1,34 +1,39 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Stroller City - web mobile
+  description: Navigate Tokyo transit via elevators only, community-driven.
+  image: projects/Strollercity.gif
+  url: https://www.strollercity.org
+  github: https://github.com/PuvaSan/Stroller_City
   online: true
+  type: mobile
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Movie-chan
+  description: Retro themed Movie watch list app with cute aesthetics.
+  image: projects/movie-chan.gif
+  url: https://movie-chan-watch-list-b4ae14af858f.herokuapp.com/
+  github: https://github.com/PuvaSan/Movie-chan
   online: true
+  type: web
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Ara-ara
+  description: Anime figures buy/sell marketplace for collectors.
+  image: projects/Ara-ara_demo.gif
+  url:  https://ara-ara-6c2b168380d4.herokuapp.com/
+  github: https://github.com/PuvaSan/Ara-ara-figures-marketplace
   online: true
+  type: web
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
+# - name: Final project
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
+#   github: https://www.github.com
+#   online: true
+#   type: web
 
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
+# - name: Yelp
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
+#   github: https://www.github.com
+#   online: false
+#   type: web
