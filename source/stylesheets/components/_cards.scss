@@ -63,13 +63,18 @@
 
 .external-link {
   opacity: 0;
-  color: $gray;
+  color: gray;
   transition: opacity 1s;
   text-decoration: none;
   font-size: 20px;
+  margin-right: 3px;
+  transition: 0.3s;
+
   &:hover {
     cursor: pointer;
-    color: $gray
+    opacity: 1;
+    color: black;
+    transform: scale(1.2);
   }
 }
 
