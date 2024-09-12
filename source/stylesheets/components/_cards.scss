@@ -9,7 +9,6 @@
 
 .card-product {
   overflow: hidden;
-  height: 400px;
   background: white;
   display: flex;
   position: relative;
@@ -93,6 +92,10 @@
   @media (max-width: 768px) {
     .container {
       width: 450px;
+    }
+
+    .mobile img {
+      width: 70%;
     }
   }
 
