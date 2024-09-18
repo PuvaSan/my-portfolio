@@ -16,12 +16,11 @@
 
 - name: Ara-ara
   description: Anime figures buy/sell marketplace for collectors.
-  image: projects/Ara-ara_demo.gif
-  url:  https://ara-ara-6c2b168380d4.herokuapp.com/
+  image: projects/ara-ara.gif
+  url: https://ara-ara-6c2b168380d4.herokuapp.com/
   github: https://github.com/PuvaSan/Ara-ara-figures-marketplace
   online: true
   type: web
-
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
