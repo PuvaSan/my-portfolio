@@ -49,9 +49,17 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
-  font-style: italic;
-  color: #838080;
+  color: #000000;
   margin-left: 5px;
+}
+
+.techstack {
+  background-color: lightseagreen;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: .8rem;
 }
 
 .card-product .card-product-infos {
