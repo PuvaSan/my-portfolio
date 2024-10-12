@@ -5,6 +5,7 @@
   github: https://github.com/PuvaSan/Stroller_City
   online: true
   type: mobile
+  stack: Ruby, Rails, PostgresSQL, JavaScript, HTML, SCSS, BootStrap, Heroku, Stimulus, Google Maps API, Google translate API, Navitime API
 
 - name: Movie-chan
   description: Retro themed Movie watch list app with cute aesthetics.
@@ -13,6 +14,7 @@
   github: https://github.com/PuvaSan/Movie-chan
   online: true
   type: web
+  stack: Ruby, Rails, PostgresSQL, JavaScript, HTML, SCSS, BootStrap, Heroku, Stimulus
 
 - name: Ara-ara
   description: Anime figures buy/sell marketplace for collectors.
@@ -21,14 +23,16 @@
   github: https://github.com/PuvaSan/Ara-ara-figures-marketplace
   online: true
   type: web
-# - name: Final project
-#   description: Decent description of the app
-#   image: projects/placeholder.png
-#   url: https://www.google.com
-#   github: https://www.github.com
-#   online: true
-#   type: web
+  stack: Ruby, Rails, PostgresSQL, JavaScript, HTML, SCSS, BootStrap, Heroku, Stimulus,
 
+- name: Travel the Backroads
+  description: Frontend only React typescript app for exotic travel planning and exploration.
+  image: projects/travelthebackroads.gif
+  url: https://travelthebackroads.netlify.app
+  github: https://github.com/PuvaSan/backroads-app
+  online: true
+  type: web
+  stack: React, TypeScript, Netlify, TailwindCSS, CSS, HTML
 # - name: Yelp
 #   description: Decent description of the app
 #   image: projects/placeholder.png

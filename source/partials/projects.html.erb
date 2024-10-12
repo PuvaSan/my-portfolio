@@ -22,6 +22,9 @@
                   </div>
                 </div>
                 <p><%= project.description %></p>
+                <% project.stack.split(',').each do |tech| %>
+                  <span class="techstack"><%= tech.strip %></span>
+                <% end %>
               </div>
             </div>
           <% end %>
