@@ -1,7 +1,26 @@
+.avatar-container {
+  position: relative;
+  width: fit-content;
+}
+
+.dot {
+  height: 18rem;
+  width: 18rem;
+  background-color: rgba(129, 214, 210, 0.973);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  top:3%;
+  left: 6%
+}
+
 .avatar {
   width: 20rem;
   height: 20rem;
   // border-radius: 50%;
+  position: relative;
+  z-index: 1;
 }
 .avatar-large {
   width: 25rem;
