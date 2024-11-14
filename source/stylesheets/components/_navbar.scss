@@ -12,12 +12,13 @@
 }
 
 #navbar {
-  background-color: #333; /* Black background color */
+  background-color: #f02d3a; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   left: 0;
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 2;
 }
 
 /* Style the navbar links */
