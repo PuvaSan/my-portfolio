@@ -35,3 +35,83 @@
   background-color: #ddd;
   color: black;
 }
+
+.hamburger-icon {
+  display: none;
+}
+
+header {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #931b23;
+}
+.logo-text{
+  color:white;
+}
+
+.hamburger-icon{
+  border:none;
+  background-color:transparent;
+
+  .fa-bars, .fa-x {
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+
+  }
+
+  input[type="checkbox"] {
+    appearance: none;
+  }
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+  }
+  .navigation {
+    height:0;
+    overflow:hidden;
+    flex-direction: column;
+    align-items: center;
+    transition:all 0.5s ease-in-out;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .fa-x{
+    display:none;
+  }
+  header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+    margin-top: 1rem;
+    height:100px;
+  }
+  header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+    display:none;
+  }
+  header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+    display:inline-block;
+  }
+}
