@@ -13,16 +13,17 @@
 }
 
 .container-landing{
+
 }
 .container-about{
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/rivercity.jpeg");
+    url("../images/alleyway.png");
 }
 .container-projects{
   height: auto;
 }
 
 .container-videos{
-  background-color: bisque;
+  background-image: url("../images/sakura.png");
 }
