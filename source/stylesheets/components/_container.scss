@@ -15,7 +15,9 @@
 .container-landing{
 }
 .container-about{
-  background-image:url("http://4kwallpapers.com/images/walls/thumbs_2t/8085.jpg")
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/rivercity.jpeg");
 }
 .container-projects{
   height: auto;
