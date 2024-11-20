@@ -36,17 +36,33 @@ header {
   display: flex;
   gap: 0.75rem;
   list-style: none;
+  box-shadow: 0px 15px 10px -15px #111;
 
   a {
     color: black;
     text-decoration: none;
     display: block;
     text-align: center;
-    transition: 0.5s;
+    font-size: 1rem;
+    // transition: 0.5s;
 
-    &:hover {
-      // background-color: white;
-      color: gray;
+    &:hover::after {
+      color: #606060;
+      // border-bottom: 0 0 3px #81d6d2f8;
+      width: 100%;
+      right: 0;
+    }
+
+    &::after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 4px;
+      right: 0;
+      background: linear-gradient(to left, #81d6d2f8, #f9dd94 100%);
+      transition: width .5s ease 0s, right .5s ease 0s;
+      width: 0;
     }
   }
 }
@@ -75,7 +91,7 @@ header {
   }
   header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
     margin-top: 1rem;
-    height:100px;
+    height: auto;
   }
   header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
     display:none;
