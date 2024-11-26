@@ -11,7 +11,7 @@ header {
   ul {
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
 }
 
@@ -38,7 +38,8 @@ header {
   gap: 0.75rem;
   list-style: none;
   // box-shadow: 0px 15px 10px -15px #111;
-  margin-top: .25rem;
+  margin-top: .75rem;
+
 
   a {
     color: #6d6d6d;
@@ -80,6 +81,8 @@ header {
     flex-direction: column;
     align-items: center;
     transition:all 0.5s ease-in-out;
+    box-shadow: 0px 8px 7px -5px rgba(0, 0, 0, 0.50);
+
   }
   .logo {
     display: flex;
